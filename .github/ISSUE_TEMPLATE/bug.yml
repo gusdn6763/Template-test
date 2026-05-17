@@ -12,17 +12,6 @@ body:
       required: true
 
   - type: textarea
-    id: reproduce
-    attributes:
-      label: 🔄 재현 방법
-      value: |
-        1. 
-        2. 
-        3. 
-    validations:
-      required: true
-
-  - type: textarea
     id: expected
     attributes:
       label: ✅ 기대 동작
@@ -33,10 +22,12 @@ body:
       label: ❌ 실제 동작
 
   - type: textarea
-    id: environment
+    id: reproduce
     attributes:
-      label: 💻 환경
+      label: 🔄 재현 방법
       value: |
-        - OS: 
-        - Browser/Tool: 
-        - 발생 API:
+        1. 
+        2. 
+        3. 
+    validations:
+      required: true
